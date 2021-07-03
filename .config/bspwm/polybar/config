@@ -272,7 +272,7 @@ click-right = pavucontrol &
 [module/powermenu]
 type = custom/text
 content = "襤"
-click-left = ~/.config/rofi/powermenu.sh
+click-left = ~/.config/bspwm/rofi/powermenu.sh
 content-background = ${colors.blue-darker}
 content-foreground = ${colors.white}
 content-padding = 1

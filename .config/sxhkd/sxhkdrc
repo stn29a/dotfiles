@@ -32,7 +32,7 @@ super + shift + d
 
 # Power Menu
 super + shift + e
-     ~/.config/rofi/powermenu.sh
+     ~/.config/bspwm/rofi/powermenu.sh
 
 ##---------- Keybindings for bspwm ----------##
 
