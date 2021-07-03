@@ -23,7 +23,7 @@ xsetroot -cursor_name left_ptr &
 # Sxhkd
 pgrep -x sxhkd > /dev/null || sxhkd &
 # Polybar
-~/.config/polybar/launch.sh &
+~/.config/bspwm/polybar/launch.sh &
 
 
 # Dual Monitor Setup
