@@ -16,6 +16,10 @@ super + alt + w
 super + Return
 	xfce4-terminal
 
+# LF Manager
+super + l
+  xfce4-terminal -e lf 
+
 ##---------- Rofi ----------##
 
 # Rofi Drun
