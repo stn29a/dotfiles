@@ -14,11 +14,15 @@ super + alt + w
 
 # Terminal Emulator
 super + Return
+	alacritty
+
+# XFCE4 Terminal Emulator
+super + shift + t
 	xfce4-terminal
 
 # LF Manager
 super + l
-  xfce4-terminal -e lf 
+  alacritty -e lf 
 
 ##---------- Rofi ----------##
 
