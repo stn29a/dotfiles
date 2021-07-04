@@ -28,15 +28,11 @@ super + r
 
 # Rofi Drun
 super + d
-	rofi -modi drun -show drun -line-padding 4 \
-                -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
-                -show-icons -drun-icon-theme "Arc-X-D" -font "UbuntuMono Nerd Font Regular 12"
+	rofi -show run -font "JetBrainsMono Nerd Font Medium 12"
 
 # Windows Switcher
 super + shift + d
-	rofi -modi drun -show window -line-padding 4 \
-                -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
-                -show-icons -drun-icon-theme "Arc-X-D" -font "UbuntuMono Nerd Font Regular 12"
+	rofi -show window -show-icons -font "JetBrainsMono Nerd Font Bold 12"
 
 # Power Menu
 super + shift + e
