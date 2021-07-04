@@ -31,7 +31,7 @@ super + d
 	rofi -show run -font "JetBrainsMono Nerd Font Medium 12"
 
 # Windows Switcher
-super + shift + d
+super + shift + w 
 	rofi -show window -show-icons -font "JetBrainsMono Nerd Font Bold 12"
 
 # Power Menu
