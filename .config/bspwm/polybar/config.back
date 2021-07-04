@@ -2,27 +2,45 @@
 
 [colors]
 
+#fg-blue = #5294e2
+#focus-dark = #1b2124
+#blue = #73d0ff
+#blue-darker = #0771ed
+#green = #bae67e
+#dark-green = #75c933
+#red = #ff3333
+#bg = #800A0E14 (transparency)
+#bg = #14141f
+#bg = #222222
+#fg = #bfbab0
+#cyan = #95e6cb
+#alpha = #00000000
+#white = #fff
+
 # Gruvbox
-bg = #282828 
+fg-blue = #ebdbb2
+bg = #282828
 fg = #928374
-color3 = #ebdbb2
-color4 = #d79921
-color5 = #1d2021
-color6 = #83a598
-color7 = #d5c4a1
-color8 = #98971a
-color9 = #fb4934
-color10 = #8ec07c
-color11 = #1d2021
-color12 = #d3869b
-color13 = #fe8019
-color14 = #ffffff
+blue-darker = #d79921
+focus-dark = #1d2021
+blue = #83a598
+green = #d5c4a1
+dark-green = #98971a
+red = #fb4934
+cyan = #8ec07c
+
+alpha = #00000000
+black = #1d2021
+purple = #d3869b
+white = #fff
+orange = #fe8019
+
 
 ##---------- Dual Monitor Setup ----------## 
 
 [bar/top]
 monitor = DP-0
-override-color9irect = false
+override-redirect = false
 
 bottom = false
 
@@ -81,12 +99,13 @@ enable-ipc = false
 
 # Border settings
 border-bottom-size = 0
-#border-color = #b3b3cc
+#border-color = ${colors.alpha}
+border-color = #b3b3cc
 
 [bar/top2]
 monitor = HDMI-0
 
-override-color9irect = false
+override-redirect = false
 
 bottom = false
 
@@ -135,7 +154,8 @@ enable-ipc = false
 
 # Border settings
 border-bottom-size = 0
-#border-color = #b3b3cc
+#border-color = ${colors.alpha}
+border-color = #b3b3cc
 
 [module/bspwm]
 type = internal/bspwm
@@ -163,16 +183,16 @@ format = <label-state> <label-mode>
 label-monitor = %name%
 
 label-focused = %icon%
-label-focused-foreground = ${colors.color5}
-label-focused-background = ${colors.color3}
+label-focused-foreground = ${colors.focus-dark}
+label-focused-background = ${colors.fg-blue}
 label-focused-underline = #fba922
 
 label-occupied = %icon%
 label-occupied-padding = 0
-label-occupied-foreground = ${colors.color3}
+label-occupied-foreground = ${colors.fg-blue}
 
 label-urgent = %icon%
-label-urgent-foreground = ${colors.color9}
+label-urgent-foreground = ${colors.red}
 
 label-empty = %icon%
 label-empty-foreground = #55
@@ -194,7 +214,7 @@ time-alt = %{T2} %H:%M:%S%{T-}
 
 label = %date%%time%
 label-font = 0
-label-foreground = ${colors.color7}
+label-foreground = ${colors.green}
 
 [module/cpu]
 type = internal/cpu
@@ -203,7 +223,7 @@ interval = 0.5
 
 label = %{T1}%{T-}%{T2} %percentage:2%%%{T-}
 
-label-foreground = ${colors.color10}
+label-foreground = ${colors.cyan}
 
 [module/memory]
 type = internal/memory
@@ -213,7 +233,7 @@ format = <label>
 
 label = %{T1}%{T-}%{T2} %gb_used%%{T-}
 
-label-foreground = ${colors.color10}
+label-foreground = ${colors.cyan}
 
 [module/sps]
 type = custom/text
@@ -228,15 +248,15 @@ interval = 1.0
 label-connected = "%{T1}龍%{T-}%{T2} %downspeed% | %upspeed%%{T-}"
 label-disconnected = "%{T2}0/0%{T-}"
 label-connected-background = ${colors.bg}
-label-connected-foreground = ${colors.color6}
-label-disconnected-foreground = ${colors.color9}
+label-connected-foreground = ${colors.blue}
+label-disconnected-foreground = ${colors.red}
 
 [module/title]
 type = internal/xwindow
 
 format = <label>
 format-background = ${colors.bg}
-format-foreground = ${colors.color12}
+format-foreground = ${colors.purple}
 format-padding = 4
 
 label = "%{T1}类%{T-}%{T2} %title%%{T-}"
@@ -256,10 +276,10 @@ format-volume = <label-volume>
 format-muted = <label-muted>
 
 label-volume = %{T1}墳%{T-} %{T2}%percentage%%%{T-}
-label-volume-foreground = ${colors.color8}
+label-volume-foreground = ${colors.dark-green}
 
 label-muted = %{T1}ﱝ%{T-} %{T2}shhh!%{T-}
-label-muted-foreground = ${colors.color8}
+label-muted-foreground = ${colors.dark-green}
 
 
 ramp-volume-0 = %{T1}%{T-}
@@ -273,18 +293,18 @@ click-right = pavucontrol &
 type = custom/text
 content = "襤"
 click-left = ~/.config/bspwm/rofi/powermenu.sh
-content-background = ${colors.color4}
-content-foreground = ${colors.color11}
+content-background = ${colors.blue-darker}
+content-foreground = ${colors.black}
 content-padding = 1
 margin-right = 0
 
 [module/xkeyboard]
 type = internal/xkeyboard
-color11list-0 = num lock
-color11list-1 = caps lock
+blacklist-0 = num lock
+blacklist-1 = caps lock
 
 format-prefix = %{T1} %{T-}
-format-prefix-foreground = ${colors.color13}
-format-foreground = ${colors.color13}
+format-prefix-foreground = ${colors.orange}
+format-foreground = ${colors.orange}
 label-layout = %{T2}%layout%%{T-}
 
