@@ -78,7 +78,7 @@ wm-restack = bspwm
 enable-ipc = false
 
 # Border settings
-border-bottom-size = 1
+border-bottom-size = 0
 #border-color = ${colors.alpha}
 border-color = #b3b3cc
 
@@ -133,7 +133,7 @@ wm-restack = bspwm
 enable-ipc = false
 
 # Border settings
-border-bottom-size = 1
+border-bottom-size = 0
 #border-color = ${colors.alpha}
 border-color = #b3b3cc
 
