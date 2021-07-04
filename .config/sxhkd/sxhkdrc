@@ -21,7 +21,7 @@ super + shift + t
 	xfce4-terminal
 
 # LF Manager
-super + l
+super + r
   alacritty -e lf 
 
 ##---------- Rofi ----------##
