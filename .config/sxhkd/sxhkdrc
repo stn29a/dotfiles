@@ -22,7 +22,7 @@ super + shift + t
 
 # LF Manager
 super + r
-  alacritty -e lf 
+  alacritty -e bash -i -c lf 
 
 ##---------- Rofi ----------##
 
