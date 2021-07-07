@@ -28,15 +28,19 @@ super + r
 
 # Rofi Drun
 super + d
-	rofi -show run -font "JetBrainsMono Nerd Font Medium 12"
+	rofi -modi drun -show drun -show-icons -terminal alacritty -font "JetBrainsMono Nerd Font Medium 12"
 
 # Windows Switcher
 super + shift + w 
-	rofi -show window -show-icons -font "JetBrainsMono Nerd Font Bold 12"
+	rofi -modi window -show window -show-icons -font "JetBrainsMono Nerd Font Bold 12"
 
 # Power Menu
 super + shift + e
      ~/.config/bspwm/rofi/powermenu.sh
+
+# Config Editor
+super + F1
+    ~/.config/bspwm/rofi/editconf.sh
 
 ##---------- Keybindings for bspwm ----------##
 
