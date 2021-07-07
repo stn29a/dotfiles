@@ -17,7 +17,7 @@ dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 # Picom
 picom -CGb &
 # Network Applet
-nm-applet --indicator &
+#nm-applet --indicator &
 # Cursor
 xsetroot -cursor_name left_ptr &
 # Sxhkd

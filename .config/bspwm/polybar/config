@@ -22,7 +22,7 @@ color14 = #ffffff
 
 [bar/top]
 monitor = DP-0
-override-color9irect = false
+override-redirect = false
 
 bottom = false
 
@@ -42,7 +42,7 @@ line-size = 0
 line-color = #fff
 
 # bar padding
-padding-right = 2 
+padding-right = 1 
 padding-left = 0
 
 # spaces between modules
@@ -86,7 +86,7 @@ border-bottom-size = 0
 [bar/top2]
 monitor = HDMI-0
 
-override-color9irect = false
+override-redirect = false
 
 bottom = false
 
