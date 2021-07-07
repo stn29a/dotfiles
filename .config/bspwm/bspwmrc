@@ -12,6 +12,8 @@ xset r rate 300 50 &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 # Wallpaper
 nitrogen --restore &
+# Clipmenu
+/usr/bin/clipmenud &
 # Dex
 dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
 # Picom

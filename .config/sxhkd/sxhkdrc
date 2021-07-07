@@ -41,6 +41,9 @@ super + shift + e
 # Config Editor
 super + F1
     ~/.config/bspwm/rofi/editconf.sh
+# Clipmenu
+super + shift + x
+    clipmenu
 
 ##---------- Keybindings for bspwm ----------##
 
