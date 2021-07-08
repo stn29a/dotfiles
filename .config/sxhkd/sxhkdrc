@@ -83,6 +83,10 @@ super + {t,shift + t,s,f}
 super + ctrl + {m,x,y,z}
 	bspc node -g {marked,locked,sticky,private}
 
+# Move current window to a pre-selected space
+super + shift + m
+    bspc node -n last.!automatic
+
 
 ##---------- Focus/Swap ----------##
 
