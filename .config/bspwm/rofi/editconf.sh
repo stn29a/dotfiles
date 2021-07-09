@@ -17,7 +17,7 @@ $cfg05" | rofi -dmenu\
                   -i\
                   -p "Choose config"\
                   -config "~/.config/bspwm/rofi/config.rasi"\
-                  -font "JetBrainsMono Nerd Font Bold 12"\
+                  -font "JetBrainsMono Nerd Font Bold 10"\
                   -width "10"\
                   -lines 5)
 

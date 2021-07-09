@@ -16,7 +16,7 @@ $shutdown" | rofi -dmenu\
                   -i\
                   -p "Power"\
                   -config "~/.config/bspwm/rofi/config.rasi"\
-                  -font "Symbols Nerd Font 12"\
+                  -font "JetBrainsMono Nerd Font Bold 10"\
                   -width "15"\
                   -lines 5\
                   -line-margin 3\
