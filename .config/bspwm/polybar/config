@@ -50,14 +50,14 @@ module-margin = 0
 
 #font-0 = "UbuntuMono Nerd Font:style=Bold:size=9;3"
 #font-1 = "UbuntuMono Nerd Font:style=Bold:size=10;2"
-font-0 = "JetBrainsMono Nerd Font:style=Medium:size=11;2"
-font-1 = "JetBrainsMono Nerd Font:style=Medium:size=11;2"
+font-0 = "JetBrainsMono Nerd Font:style=Bold:size=10;2"
+font-1 = "JetBrainsMono Nerd Font:style=Bold:size=10;2"
 
 
-modules-left = powermenu sps bspwm sps
+modules-left = powermenu sps bspwm
 modules-center = title
-modules-right = sps xkeyboard pulseaudio sps netspeed sps memory sps cpu sps date
-separator =
+modules-right = sps xkeyboard pulseaudio netspeed sps memory sps cpu sps date
+separator = 
 spacing = 0
 
 ; Opacity value between 0.0 and 1.0 used on fade in/out
@@ -110,8 +110,8 @@ padding-left = 0
 
 module-margin = 0
 
-font-0 = "JetBrainsMono Nerd Font:style=Medium:size=11;2"
-font-1 = "JetBrainsMono Nerd Font:style=Medium:size=11;2"
+font-0 = "JetBrainsMono Nerd Font:style=Medium:size=10;2"
+font-1 = "JetBrainsMono Nerd Font:style=Medium:size=10;2"
 #font-0 = "UbuntuMono Nerd Font:style=Bold:size=9;3"
 #font-1 = "UbuntuMono Nerd Font:style=Bold:size=10;2"
 
@@ -225,7 +225,7 @@ type = internal/network
 
 interface = enp2s0
 interval = 1.0
-label-connected = "%{T1}龍%{T-}%{T2} %downspeed% | %upspeed%%{T-}"
+label-connected = "%{T2}  %downspeed%  %upspeed%%{T-}"
 label-disconnected = "%{T2}0/0%{T-}"
 label-connected-background = ${colors.bg}
 label-connected-foreground = ${colors.color6}

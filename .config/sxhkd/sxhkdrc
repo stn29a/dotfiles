@@ -28,11 +28,11 @@ super + r
 
 # Rofi Drun
 super + d
-	rofi -modi drun -show drun -show-icons -terminal alacritty -font "JetBrainsMono Nerd Font Medium 12"
+	rofi -modi drun -show drun -show-icons -terminal alacritty -font "JetBrainsMono Nerd Font Bold 10"
 
 # Windows Switcher
 super + shift + w 
-	rofi -modi window -show window -show-icons -font "JetBrainsMono Nerd Font Bold 12"
+	rofi -modi window -show window -show-icons -font "JetBrainsMono Nerd Font Bold 10"
 
 # Power Menu
 super + BackSpace
