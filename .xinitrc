@@ -1,5 +1,5 @@
 sh ~/.screenlayout/monitor.sh &
-xrdb ~/.Xresources &
+xrdb -merge ~/.Xresources &
 /usr/bin/dunst &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 nitrogen --restore &
