@@ -38,8 +38,7 @@ offset-y =
 background = ${colors.bg}
 foreground = ${colors.fg}
 
-line-size = 0
-line-color = #fff
+line-size = 1
 
 # bar padding
 padding-right = 1 
@@ -102,8 +101,7 @@ offset-y =
 
 background = ${colors.bg}
 foreground = ${colors.fg}
-line-size = 0
-line-color = #fff
+line-size = 1
 
 padding-right = 1 
 padding-left = 0
@@ -165,8 +163,7 @@ label-monitor = %name%
 label-focused = %icon%
 label-focused-padding= 1
 label-focused-foreground = ${colors.color5}
-label-focused-background = ${colors.color3}
-label-focused-underline = #fba922
+label-focused-background = ${colors.color6}
 
 label-occupied = %icon%
 label-occupied-padding = 1
@@ -179,6 +176,13 @@ label-urgent-foreground = ${colors.color9}
 label-empty = %icon%
 label-empty-foreground = #55
 label-empty-padding = 1
+
+label-dimmed-foreground = #555
+label-dimmed-empty-foreground= #55
+label-dimmed-occupied-foreground= #a89984
+label-dimmed-focused-foreground = ${colors.color6}
+label-dimmed-focused-background = ${colors.bg}
+label-dimmed-focused-underline = ${colors.color6}
 
 label-separator = "  " 
 label-separator-padding = 0
