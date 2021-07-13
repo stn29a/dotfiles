@@ -34,4 +34,4 @@ bind '"\e[B":history-search-forward'
 eval "$(starship init bash)"
 
 ##---------- NEOFETCH ----------##
-neofetch
+pfetch
