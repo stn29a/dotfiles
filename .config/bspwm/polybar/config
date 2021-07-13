@@ -147,38 +147,40 @@ enable-scroll = true
 reverse-scroll = false
 fuzzy-match = true
 
-ws-icon-0 = "1;%{T2} 1 %{T-}"
-ws-icon-1 = "2;%{T2} 2 %{T-}"
-ws-icon-2 = "3;%{T2} 3 %{T-}"
-ws-icon-3 = "4;%{T2} 4 %{T-}"
-ws-icon-4 = "5;%{T2} 5 %{T-}"
-ws-icon-5 = "6;%{T2} 6 %{T-}"
-ws-icon-6 = "7;%{T2} 7 %{T-}"
-ws-icon-7 = "8;%{T2} 8 %{T-}"
-ws-icon-8 = "9;%{T2} 9 %{T-}"
-ws-icon-9 = "10;%{T2} 10 %{T-}"
+ws-icon-0 = "1;%{T2}1: %{T-}"
+ws-icon-1 = "2;%{T2}2: %{T-}"
+ws-icon-2 = "3;%{T2}3: %{T-}"
+ws-icon-3 = "4;%{T2}4: %{T-}"
+ws-icon-4 = "5;%{T2}5: %{T-}"
+ws-icon-5 = "6;%{T2}6: %{T-}"
+ws-icon-6 = "7;%{T2}7: %{T-}"
+ws-icon-7 = "8;%{T2}8: %{T-}"
+ws-icon-8 = "9;%{T2}9: %{T-}"
+ws-icon-9 = "10;%{T2}10: %{T-}"
 ws-icon-default = %{T2}  %{T-}
 
 format = <label-state> <label-mode>
 label-monitor = %name%
 
 label-focused = %icon%
+label-focused-padding= 1
 label-focused-foreground = ${colors.color5}
 label-focused-background = ${colors.color3}
 label-focused-underline = #fba922
 
 label-occupied = %icon%
-label-occupied-padding = 0
+label-occupied-padding = 1
 label-occupied-foreground = ${colors.color3}
 
 label-urgent = %icon%
+label-urgent-padding= 1
 label-urgent-foreground = ${colors.color9}
 
 label-empty = %icon%
 label-empty-foreground = #55
-label-empty-padding = 0
+label-empty-padding = 1
 
-label-separator =  
+label-separator = "" 
 label-separator-padding = 0
 label-separator-foreground = #ffb52a
 
