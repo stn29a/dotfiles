@@ -11,10 +11,10 @@ options="$option0\n$option1\n$option2"
 selected="$(echo -e "$options" | rofi -lines 3 -dmenu -p "scrot")"
 case $selected in
     $option0)
-        cd ~/Изображения/ && sleep 1 && scrot;;
+        cd ~/Pictures/ && sleep 1 && scrot;;
     $option1)
-        cd ~/Изображения/ && scrot -s;;
+        cd ~/Pictures/ && scrot -s;;
     $option2)
-        cd ~/Изображения/ && sleep 1 && scrot -u;;
+        cd ~/Pictures/ && sleep 1 && scrot -u;;
 esac
 
