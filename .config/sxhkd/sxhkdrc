@@ -16,9 +16,9 @@ super + alt + w
 super + Return
 	alacritty
 
-# XFCE4 Terminal Emulator
-ctrl + alt + t
-	xfce4-terminal
+# St Scratchpad Terminal Emulator
+super + shift + Return
+    scratchtermtoggle
 
 # LF Manager
 super + r

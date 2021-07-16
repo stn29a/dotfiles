@@ -4,7 +4,7 @@
 
 # Polybar
 ~/.config/bspwm/polybar/launch.sh &
-
+st -c scratchterm &
 # Set display from arandr saved script
 #sh ~/.screenlayout/monitor.sh &
 # Higher rate
@@ -97,3 +97,4 @@ bspc rule -a Transmission-gtk desktop='^10' follow=on
 
 # Special rules
 bspc rule -a Galculator state=floating
+bspc rule -a scratchterm sticky=on state=floating hidden=on
