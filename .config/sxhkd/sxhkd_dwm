@@ -48,11 +48,11 @@ super + shift + w
 
 # Power Menu
 super + shift + BackSpace
-     ~/.config/bspwm/rofi/powermenu.sh
+     ~/.local/bin/powermenu.sh
 
 # Config Editor
 super + F4
-    ~/.config/bspwm/rofi/dmconf.sh
+    ~/.local/bin/dmconf.sh
 
 # Clipmenu
 super + c
@@ -66,7 +66,7 @@ super + Escape
 
 # Lockscreen
 ctrl + alt + l
-    ~/.config/bspwm/scripts/i3lock-fancy/i3lock-fancy.sh
+    ~/.local/bin/i3lock-fancy/i3lock-fancy.sh
 
 # Multimedia keys
 XF86AudioRaiseVolume
@@ -83,6 +83,6 @@ Print
   scrot ~/Pictures/Screenshot-$(date +%F_%T).png
 
 super+Print
-  ~/.config/bspwm/scripts/screenshot.sh
+  ~/.local/bin/screenshot.sh
 
 ##---------- EOF ----------##		
