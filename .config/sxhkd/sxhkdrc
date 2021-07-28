@@ -22,7 +22,15 @@ super + shift + Return
 
 # LF Manager
 super + r
-  alacritty -e lf 
+  alacritty -e lfrun 
+
+# PulseAudio Volume Mixer
+super + F2
+  pavucontrol -t 3
+
+# HTop
+super + F1
+  st -e htop
 
 ##---------- Rofi ----------##
 
@@ -39,8 +47,8 @@ super + BackSpace
      ~/.config/bspwm/rofi/powermenu.sh
 
 # Config Editor
-super + F1
-    ~/.config/bspwm/rofi/editconf.sh
+super + F4
+    ~/.config/bspwm/rofi/dmconf.sh
 # Clipmenu
 super + shift + x
     clipmenu
