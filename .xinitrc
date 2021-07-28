@@ -14,10 +14,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  done
  unset f
 fi
-
-
-
-# Here Xfce is kept as default
+# Default Session
 session=${1:-dwm}
 
 case $session in
