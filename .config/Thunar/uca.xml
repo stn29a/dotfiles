@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1621583750156514-1</unique-id>
+	<command>/usr/bin/alacritty</command>
+	<description>Open Terminal Here</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>software-update-urgent</icon>
+	<name>Edit file as ROOT</name>
+	<unique-id>1625060502186570-1</unique-id>
+	<command>xed admin:%f</command>
+	<description>Edit file as ROOT</description>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>red-folder</icon>
+	<name>Open Thunar as ROOT</name>
+	<unique-id>1625426031973886-1</unique-id>
+	<command>thunar admin:%d</command>
+	<description>Open Thunar as ROOT</description>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>org.gnome.meld</icon>
+	<name>Compare</name>
+	<unique-id>1626032558146959-1</unique-id>
+	<command>meld %F</command>
+	<description>Compare Files and Directories</description>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+	<text-files/>
+</action>
+</actions>
