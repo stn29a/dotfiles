@@ -24,6 +24,8 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 export TERMINAL="alacritty"
 
+export BAT_THEME="gruvbox-dark"
+
 #CLIPMENU
 export CM_LAUNCHER="rofi"
 export CM_SELECTIONS="clipboard"
