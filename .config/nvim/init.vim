@@ -15,6 +15,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'tpope/vim-surround'
 call plug#end()
 
+let g:gruvbox_contrast_dark = 'medium'
 colorscheme gruvbox 
 lua require'colorizer'.setup()
 autocmd VimEnter * :silent exec "!kill -s SIGWINCH $PPID"
