@@ -5,6 +5,7 @@ xrdb -merge ~/.Xresources &
 nitrogen --restore &
 /usr/bin/clipmenud &
 dex -a -s /etc/xdg/autostart/:~/.config/autostart/
+nvidia-settings --load-config-only &
 picom -CGb &
 xsetroot -cursor_name left_ptr &
 xset r rate 300 50 &
