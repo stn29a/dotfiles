@@ -12,13 +12,9 @@ super + n
 super + alt + w
   firefox 
 
-# Terminal Emulator
-#super + Return
-#	alacritty
-
-# XFCE4 Terminal Emulator
+# Alacritty Terminal
 ctrl + alt + t
-	xfce4-terminal
+	alacritty
 
 # LF Manager
 super + r
