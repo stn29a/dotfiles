@@ -25,6 +25,7 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export TERMINAL="alacritty"
 
 export BAT_THEME="gruvbox-dark"
+export BAT_PAGER="less -RF --mouse --wheel-lines=3"
 
 #CLIPMENU
 export CM_LAUNCHER="rofi"
