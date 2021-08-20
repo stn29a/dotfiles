@@ -45,7 +45,7 @@ alias merge="xrdb -merge ~/.Xresources"
 # PACMAN OR YAY
 alias pacman='sudo pacman --color auto'
 alias update='sudo pacman -Syyu'
-alias upall="yay -Syu"
+alias upaur="yay -Sua"
 
 # GRUB UPDATE
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
@@ -65,6 +65,22 @@ alias xd="ls /usr/share/xsessions"
 # BARE GIT REPOSITORY
 alias config='/usr/bin/git --git-dir=/home/stn29a/.cfg/ --work-tree=/home/stn29a'
 
+#YOUTUBE-DL
+alias yta-aac="youtube-dl --extract-audio --audio-format aac "
+alias yta-best="youtube-dl --extract-audio --audio-format best "
+alias yta-flac="youtube-dl --extract-audio --audio-format flac "
+alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
+alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
+alias yta-opus="youtube-dl --extract-audio --audio-format opus "
+alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
+alias yta-wav="youtube-dl --extract-audio --audio-format wav "
+
+alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+
+#SHUTDOWN OR REBOOT
+alias ssn="sudo shutdown now"
+alias sr="sudo reboot"
+
 # BINDINGS FOR HISTORY SEARCH
 bind '"\e[A":history-search-backward'
 bind '"\e[B":history-search-forward'
@@ -80,4 +96,3 @@ bind "set completion-ignore-case on"
 
 ##---------- STARSHIP PROMPT ----------##
 eval "$(starship init bash)"
-
