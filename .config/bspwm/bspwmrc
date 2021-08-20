@@ -2,34 +2,35 @@
 
 ##---------- Autostart ----------##
 
+# Set display from arandr saved script
+sh ~/.screenlayout/monitor.sh &
+# Merge XRresources
+xrdb -merge ~/.Xresources &
+# Notifications
+/usr/bin/dunst &
+# Polkit
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+# Scratchpad
+st -c scratchterm &
+# Wallpaper
+nitrogen --restore &
+# Clipmenu
+/usr/bin/clipmenud &
+# Dex
+dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
+# Sxhkd
+pgrep -x sxhkd > /dev/null || sxhkd &
+# Nvidia Settings
+nvidia-settings --load-config-only &
+# Picom
+picom -CGb &
 # Polybar
 ~/.config/bspwm/polybar/launch.sh &
-st -c scratchterm &
-# Set display from arandr saved script
-#sh ~/.screenlayout/monitor.sh &
-# Higher rate
-#xset r rate 300 50 &
-# Notifications
-#/usr/bin/dunst &
-# Polkit
-#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-# Wallpaper
-#nitrogen --restore &
-# Clipmenu
-#/usr/bin/clipmenud &
-# Dex
-#dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
-# Picom
-#picom -CGb &
-# Network Applet
-#nm-applet --indicator &
 # Cursor
-#xsetroot -cursor_name left_ptr &
-# Sxhkd
-#pgrep -x sxhkd > /dev/null || sxhkd &
+xsetroot -cursor_name left_ptr &
 
 # Dual Monitor Setup
-bspc monitor DP-0 -d 1 2 3 4 5 6 7
+bspc monitor DP-2 -d 1 2 3 4 5 6 7
 bspc monitor HDMI-0 -d 8 9 10
 
 ##---------- Bspwm Settings ----------##
