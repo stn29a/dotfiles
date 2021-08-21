@@ -30,17 +30,17 @@ super + F2
 
 # HTop
 super + F1
-  st -e htop
+  alacritty -e htop
 
 ##---------- Rofi ----------##
 
 # Rofi Drun
 super + d
-	rofi -modi drun -show drun -show-icons -terminal alacritty -font "JetBrainsMono Nerd Font Bold 10"
+	rofi -modi drun -show drun -show-icons -terminal alacritty -font "JetBrainsMono Nerd Font Bold 12"
 
 # Windows Switcher
 super + shift + w 
-	rofi -modi window -show window -show-icons -font "JetBrainsMono Nerd Font Bold 10"
+	rofi -modi window -show window -show-icons -font "JetBrainsMono Nerd Font Bold 12"
 
 # Power Menu
 super + shift + BackSpace
