@@ -9,7 +9,7 @@
 # Defining the text editor to use.
 # DMENUEDITOR="vim"
 # DMENUEDITOR="nvim"
-DMEDITOR="st -e nvim"
+DMEDITOR="alacritty -e nvim"
 
 # An array of options to choose.
 # You can edit this list to add/remove config files.
@@ -26,7 +26,7 @@ declare -a options=(
 
 # Piping the above array into dmenu.
 # We use "printf '%s\n'" to format the array one item to a line.
-choice=$(printf '%s\n' "${options[@]}" | rofi -dmenu -i  20 -p 'Edit config:')
+choice=$(printf '%s\n' "${options[@]}" | rofi -dmenu -i  20 -p 'Edit config:' -font "JetBrainsMono Nerd Font Bold 12")
 
 # What to do when/if we choose 'quit'.
 if [[ "$choice" == "quit" ]]; then

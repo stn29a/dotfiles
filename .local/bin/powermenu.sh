@@ -15,7 +15,7 @@ $reboot
 $shutdown" | rofi -dmenu\
                   -i\
                   -p "Power"\
-                  -font "JetBrainsMono Nerd Font Bold 10"\
+                  -font "JetBrainsMono Nerd Font Bold 12"\
                   -width "15"\
                   -lines 5\
                   -line-margin 3\
