@@ -44,7 +44,7 @@ alias merge="xrdb -merge ~/.Xresources"
 # ALIASES FOR SOFTWARE MANAGMENT
 # PACMAN OR YAY
 alias pacman='sudo pacman --color auto'
-alias update='sudo pacman -Syyu'
+alias update='sudo pacman -Syu'
 alias upaur="yay -Sua"
 
 # GRUB UPDATE
