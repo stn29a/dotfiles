@@ -2,8 +2,8 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/stn29a/.gtkrc-2.0.mine"
-gtk-theme-name="Adwaita-dark"
-gtk-icon-theme-name="Numix"
+gtk-theme-name="Arc-Darkest"
+gtk-icon-theme-name="Papirus-Dark"
 gtk-font-name="JetBrainsMono Nerd Font Medium 10"
 gtk-cursor-theme-name="capitaine-cursors-light"
 gtk-cursor-theme-size=0

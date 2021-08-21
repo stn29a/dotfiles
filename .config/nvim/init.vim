@@ -7,6 +7,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'morhetz/gruvbox'
 Plug 'tomasiser/vim-code-dark'
+Plug 'joshdick/onedark.vim'
 Plug 'dracula/vim'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/goyo.vim'
@@ -15,8 +16,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'tpope/vim-surround'
 call plug#end()
 
-let g:gruvbox_contrast_dark = 'medium'
-colorscheme gruvbox 
+colorscheme onedark
 lua require'colorizer'.setup()
 autocmd VimEnter * :silent exec "!kill -s SIGWINCH $PPID"
 autocmd StdinReadPre * let s:std_in=1
