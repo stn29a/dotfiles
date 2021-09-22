@@ -1,0 +1,14 @@
+# vim: filetype=sh
+alias cac="cd /home/stn29a/.cache && la" \
+cf="cd /home/stn29a/.config && la" \
+D="cd /home/stn29a/Downloads && la" \
+d="cd /home/stn29a/Documents && la" \
+dt="cd /home/stn29a/.local/share && la" \
+rr="cd /home/stn29a/.local/src && la" \
+h="cd /home/stn29a && la" \
+m="cd /home/stn29a/Music && la" \
+mn="cd /mnt && la" \
+pp="cd /home/stn29a/Pictures && la" \
+sc="cd /home/stn29a/.local/bin && la" \
+src="cd /home/stn29a/.local/src && la" \
+vv="cd /home/stn29a/Videos && la" \
