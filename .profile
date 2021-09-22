@@ -5,7 +5,7 @@
 ##---------- EXPORT VARIABLES ----------##
 
 
-#PATH
+# PATH
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
 fi
@@ -27,11 +27,14 @@ export TERMINAL="alacritty"
 export BAT_THEME="OneHalfDark"
 export BAT_PAGER="less -RF --mouse --wheel-lines=3"
 
-#CLIPMENU
+# CLIPMENU
 export CM_LAUNCHER="rofi"
 export CM_SELECTIONS="clipboard"
 export CM_OUTPUT_CLIP=0
 export CM_MAX_CLIPS=10
+
+# QT5CT
+export QT_QPA_PLATFORMTHEME=qt5ct
 
 # MANPAGER
 #export MANPAGER="nvim -c 'set ft=man' -"
