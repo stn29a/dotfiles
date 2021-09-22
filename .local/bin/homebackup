@@ -1,0 +1,24 @@
+#!/bin/sh
+set -e
+ 
+bdir="/home/$(whoami)"
+bfile="$bdir/backups/$(whoami)_$(date +%F).tar.xz"
+ 
+echo -n "Creating backup $bfile..."
+tar --one-file-system \
+    --exclude="virtualbox" \
+    --exclude="backups" \
+    --exclude="Downloads" \
+    --exclude="Videos" \
+    --exclude="incoming" \
+    --exclude="virt" \
+    --exclude=".cache" \
+    --exclude=".gvfs" \
+    --exclude=".local/share/gvfs-metadata" \
+    --exclude=".nv" \
+    --exclude=".Trash" \
+    --exclude=".local/share/Trash" \
+    --exclude=".local/share/TelegramDesktop" \
+    -cJpf $bfile -C $bdir . \
+    && echo " Done." || echo " ERROR!"
+#    2>/dev/null && echo " Done." || echo " ERROR!"
