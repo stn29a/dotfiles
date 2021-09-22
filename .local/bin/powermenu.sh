@@ -16,11 +16,7 @@ $shutdown" | rofi -dmenu\
                   -i\
                   -p "Power"\
                   -font "JetBrainsMono Nerd Font Bold 12"\
-                  -width "15"\
-                  -lines 5\
-                  -line-margin 3\
-                  -line-padding 10\
-                  -scrollbar-width "0" )
+                  -theme ~/.config/rofi/powermenu.rasi)
 
 # Do something based on selected option
 if [ "$selected_option" == "$lock" ]
