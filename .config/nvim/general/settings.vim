@@ -40,5 +40,5 @@ cmap w!! w !sudo tee %
 
 nnoremap <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
-
 set termguicolors
+let g:vimwiki_text_ignore_newline = 0
