@@ -36,7 +36,7 @@ super + F1
 
 # Rofi Drun
 super + d
-	rofi -modi drun -show drun -show-icons -terminal alacritty -font "JetBrainsMono Nerd Font Bold 12"
+	rofi -modi drun -show drun -terminal alacritty -config ~/.config/rofi/rofidmenu.rasi
 
 # Windows Switcher
 super + shift + w 
