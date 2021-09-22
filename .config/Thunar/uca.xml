@@ -42,4 +42,18 @@
 	<other-files/>
 	<text-files/>
 </action>
+<action>
+	<icon>spray-mode-copy</icon>
+	<name>Copy Path</name>
+	<unique-id>1629887881296039-1</unique-id>
+	<command>echo -n %f | xclip -selection clipboard</command>
+	<description>Copy Path</description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
 </actions>
