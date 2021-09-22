@@ -3,7 +3,7 @@
 
 include "/home/stn29a/.gtkrc-2.0.mine"
 gtk-theme-name="Arc-Darkest"
-gtk-icon-theme-name="Papirus-Dark"
+gtk-icon-theme-name="Sardi-Flat"
 gtk-font-name="JetBrainsMono Nerd Font Medium 10"
 gtk-cursor-theme-name="capitaine-cursors-light"
 gtk-cursor-theme-size=0
